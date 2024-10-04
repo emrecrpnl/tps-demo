@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://tfr52c4ea5pp"]
+
+[ext_resource type="ArrayMesh" uid="uid://dqv1wjkxxt34v" path="res://level/geometry/props/meshes/prop_prop_barrel-small.res" id="1_pc2wt"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_wwc0j"]
+height = 1.18249
+radius = 0.35213
+
+[node name="BarrelSmall" type="StaticBody3D"]
+
+[node name="PropPropBarrel-small" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_pc2wt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.565627, 0)
+shape = SubResource("CylinderShape3D_wwc0j")

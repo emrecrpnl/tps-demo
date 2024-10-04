@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://whmsdc4ps5yg"]
+
+[ext_resource type="ArrayMesh" uid="uid://c5rcexpi6fu2b" path="res://level/geometry/props/meshes/prop_prop_cargobox5a.res" id="1_umrw5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3et63"]
+size = Vector3(1.685, 1.075, 2.925)
+
+[node name="Cargobox5a" type="StaticBody3D"]
+
+[node name="PropPropCargobox5a" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_umrw5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.537354, 0)
+shape = SubResource("BoxShape3D_3et63")

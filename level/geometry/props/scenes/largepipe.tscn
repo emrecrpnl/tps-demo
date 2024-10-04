@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://256ga4o6qe5"]
+
+[ext_resource type="ArrayMesh" uid="uid://c8ydqqmbf7203" path="res://level/geometry/props/meshes/prop_prop_largepipe.res" id="1_oitbl"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_r3m0e"]
+height = 4.35371
+radius = 0.439913
+
+[node name="Largepipe" type="StaticBody3D"]
+
+[node name="PropPropLargepipe" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_oitbl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+shape = SubResource("CylinderShape3D_r3m0e")

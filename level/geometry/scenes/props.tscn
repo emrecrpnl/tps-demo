@@ -104,7 +104,923 @@ size = Vector3(1, 1.6, 6.6)
 
 [node name="PropsModel" parent="." instance=ExtResource("1")]
 
+[node name="prop_lightstick_008" parent="PropsModel" index="0"]
+visible = false
+
+[node name="prop_lightstick_000" parent="PropsModel" index="1"]
+visible = false
+
+[node name="prop_container2_010" parent="PropsModel" index="2"]
+visible = false
+
+[node name="prop_cargobox5b_022" parent="PropsModel" index="3"]
+visible = false
+
+[node name="prop_cargobox5a_019" parent="PropsModel" index="4"]
+visible = false
+
+[node name="prop_cargobox3_021" parent="PropsModel" index="5"]
+visible = false
+
+[node name="prop_cargobox3_019" parent="PropsModel" index="6"]
+visible = false
+
+[node name="prop_cargobox2_009" parent="PropsModel" index="7"]
+visible = false
+
+[node name="prop_lightstick_007" parent="PropsModel" index="8"]
+visible = false
+
+[node name="prop_lightstick_006" parent="PropsModel" index="9"]
+visible = false
+
+[node name="prop_lightstick_005" parent="PropsModel" index="10"]
+visible = false
+
+[node name="prop_lightstick_004" parent="PropsModel" index="11"]
+visible = false
+
+[node name="prop_container2_005" parent="PropsModel" index="12"]
+visible = false
+
+[node name="prop_gastriple_009" parent="PropsModel" index="13"]
+visible = false
+
+[node name="prop_gastank3_020" parent="PropsModel" index="14"]
+visible = false
+
+[node name="prop_gastank1_018" parent="PropsModel" index="15"]
+visible = false
+
+[node name="prop_container3_015" parent="PropsModel" index="18"]
+visible = false
+
+[node name="prop_gastriple_008" parent="PropsModel" index="19"]
+visible = false
+
+[node name="prop_cargobox1_b_003" parent="PropsModel" index="20"]
+visible = false
+
+[node name="prop_barrel3_013" parent="PropsModel" index="21"]
+visible = false
+
+[node name="prop_container4topbottom_004" parent="PropsModel" index="22"]
+visible = false
+
+[node name="prop_cargobox5b_020" parent="PropsModel" index="23"]
+visible = false
+
+[node name="prop_cargobox5a_017" parent="PropsModel" index="24"]
+visible = false
+
+[node name="prop_cargobox3_026" parent="PropsModel" index="25"]
+visible = false
+
+[node name="prop_cargobox2_019" parent="PropsModel" index="26"]
+visible = false
+
+[node name="prop_container2_009" parent="PropsModel" index="27"]
+visible = false
+
+[node name="prop_container2_008" parent="PropsModel" index="28"]
+visible = false
+
+[node name="prop_container3_014" parent="PropsModel" index="29"]
+visible = false
+
+[node name="prop_container3_013" parent="PropsModel" index="30"]
+visible = false
+
+[node name="prop_container2_007" parent="PropsModel" index="31"]
+visible = false
+
+[node name="prop_container2_006" parent="PropsModel" index="32"]
+visible = false
+
+[node name="prop_cargobox2_018" parent="PropsModel" index="33"]
+visible = false
+
+[node name="prop_cargobox3_025" parent="PropsModel" index="34"]
+visible = false
+
+[node name="prop_cargobox5a_016" parent="PropsModel" index="35"]
+visible = false
+
+[node name="prop_cargobox5b_019" parent="PropsModel" index="36"]
+visible = false
+
+[node name="prop_container4topbottom_003" parent="PropsModel" index="37"]
+visible = false
+
+[node name="prop_barrel3_012" parent="PropsModel" index="38"]
+visible = false
+
+[node name="prop_cargobox1_b_002" parent="PropsModel" index="39"]
+visible = false
+
+[node name="prop_gastriple_007" parent="PropsModel" index="40"]
+visible = false
+
+[node name="prop_container3_012" parent="PropsModel" index="41"]
+visible = false
+
+[node name="prop_floodlight_006" parent="PropsModel" index="42"]
+visible = false
+
+[node name="prop_cargobox5b_018" parent="PropsModel" index="43"]
+visible = false
+
+[node name="prop_cargobox5a_015" parent="PropsModel" index="44"]
+visible = false
+
+[node name="prop_cargobox2_017" parent="PropsModel" index="45"]
+visible = false
+
+[node name="prop_barrier_006" parent="PropsModel" index="46"]
+visible = false
+
+[node name="prop_gastank2_017" parent="PropsModel" index="47"]
+visible = false
+
+[node name="@StaticBody3D@18099" parent="PropsModel" index="48"]
+visible = false
+
+[node name="prop_gastank3_017" parent="PropsModel" index="49"]
+visible = false
+
+[node name="prop_solderhose3_002" parent="PropsModel" index="50"]
+visible = false
+
+[node name="prop_cargobox5b_017" parent="PropsModel" index="51"]
+visible = false
+
+[node name="prop_cargobox5a_014" parent="PropsModel" index="52"]
+visible = false
+
+[node name="prop_cargobox3_024" parent="PropsModel" index="53"]
+visible = false
+
+[node name="prop_cargobox1_a_011" parent="PropsModel" index="54"]
+visible = false
+
+[node name="prop_cargobox2_016" parent="PropsModel" index="55"]
+visible = false
+
+[node name="prop_cargobox3_022" parent="PropsModel" index="56"]
+visible = false
+
+[node name="prop_cargobox3_020" parent="PropsModel" index="57"]
+visible = false
+
+[node name="prop_cargobox5a_013" parent="PropsModel" index="58"]
+visible = false
+
+[node name="prop_cargobox5b_016" parent="PropsModel" index="59"]
+visible = false
+
+[node name="prop_container3_011" parent="PropsModel" index="60"]
+visible = false
+
+[node name="prop_container4bare1_005" parent="PropsModel" index="61"]
+visible = false
+
+[node name="prop_steelbeam_036" parent="PropsModel" index="62"]
+visible = false
+
+[node name="prop_steelbeam_035" parent="PropsModel" index="63"]
+visible = false
+
+[node name="prop_steelbeam_034" parent="PropsModel" index="64"]
+visible = false
+
+[node name="prop_pellet_021" parent="PropsModel" index="65"]
+visible = false
+
+[node name="prop_pellet_020" parent="PropsModel" index="66"]
+visible = false
+
+[node name="prop_pellet_019" parent="PropsModel" index="67"]
+visible = false
+
+[node name="prop_floodlight_005" parent="PropsModel" index="68"]
+visible = false
+
+[node name="prop_floodlight_004" parent="PropsModel" index="69"]
+visible = false
+
+[node name="prop_cargobox3_018" parent="PropsModel" index="70"]
+visible = false
+
+[node name="CollisionShape3D" parent="PropsModel/prop_cargobox3_018/prop_cargobox3_018" index="0"]
+visible = false
+
+[node name="prop_cargobox4_019" parent="PropsModel" index="71"]
+visible = false
+
+[node name="prop_container3_009" parent="PropsModel" index="72"]
+visible = false
+
+[node name="prop_container3door1_007" parent="PropsModel/prop_container3_009" index="1"]
+visible = false
+
+[node name="prop_cargobox5b_015" parent="PropsModel" index="73"]
+visible = false
+
+[node name="prop_cargobox5a_012" parent="PropsModel" index="74"]
+visible = false
+
+[node name="prop_cargobox3_017" parent="PropsModel" index="75"]
+visible = false
+
+[node name="prop_pellet_018" parent="PropsModel" index="76"]
+visible = false
+
+[node name="prop_smallbox4_010" parent="PropsModel" index="77"]
+visible = false
+
+[node name="prop_gastriple_006" parent="PropsModel" index="78"]
+visible = false
+
+[node name="prop_gastank3_015" parent="PropsModel" index="79"]
+visible = false
+
+[node name="prop_gastank2_015" parent="PropsModel" index="80"]
+visible = false
+
+[node name="prop_gastank1_014" parent="PropsModel" index="81"]
+visible = false
+
+[node name="prop_barrel3_011" parent="PropsModel" index="82"]
+visible = false
+
+[node name="prop_barrel2_006" parent="PropsModel" index="83"]
+visible = false
+
+[node name="prop_cargobox5a_011" parent="PropsModel" index="84"]
+visible = false
+
+[node name="prop_cargobox5b_014" parent="PropsModel" index="85"]
+visible = false
+
+[node name="prop_cargolift_002" parent="PropsModel" index="86"]
+visible = false
+
+[node name="prop_cargobox1_a_009" parent="PropsModel" index="87"]
+visible = false
+
+[node name="prop_barrel2_005" parent="PropsModel" index="88"]
+visible = false
+
+[node name="prop_barrel3_010" parent="PropsModel" index="89"]
+visible = false
+
+[node name="prop_gastank1_013" parent="PropsModel" index="90"]
+visible = false
+
+[node name="prop_gastank2_014" parent="PropsModel" index="91"]
+visible = false
+
+[node name="prop_gastank3_014" parent="PropsModel" index="92"]
+visible = false
+
+[node name="prop_gastriple_005" parent="PropsModel" index="93"]
+visible = false
+
+[node name="prop_smallbox2_006" parent="PropsModel" index="94"]
+visible = false
+
+[node name="prop_smallbox4_009" parent="PropsModel" index="95"]
+visible = false
+
+[node name="prop_cargobox3_015" parent="PropsModel" index="96"]
+visible = false
+
+[node name="prop_cargobox3lid_016" parent="PropsModel" index="97"]
+visible = false
+
+[node name="CollisionShape3D" parent="PropsModel/@StaticBody3D@18100" index="0"]
+visible = false
+
+[node name="prop_cargobox4_015" parent="PropsModel" index="99"]
+visible = false
+
+[node name="prop_pellet_017" parent="PropsModel" index="100"]
+visible = false
+
+[node name="prop_container4bare2_005" parent="PropsModel" index="101"]
+visible = false
+
+[node name="prop_smallbox4_008" parent="PropsModel" index="102"]
+visible = false
+
+[node name="prop_cargobox5b_013" parent="PropsModel" index="103"]
+visible = false
+
+[node name="prop_cargobox1_a_008" parent="PropsModel" index="104"]
+visible = false
+
+[node name="prop_cargobox2_012" parent="PropsModel" index="105"]
+visible = false
+
+[node name="prop_cargobox4_014" parent="PropsModel" index="106"]
+visible = false
+
+[node name="prop_pellet_016" parent="PropsModel" index="107"]
+visible = false
+
+[node name="prop_container3_008" parent="PropsModel" index="108"]
+visible = false
+
+[node name="prop_container4bare1_004" parent="PropsModel" index="109"]
+visible = false
+
+[node name="prop_pellet_015" parent="PropsModel" index="110"]
+visible = false
+
+[node name="prop_smallbox4_007" parent="PropsModel" index="111"]
+visible = false
+
+[node name="prop_gastriple_004" parent="PropsModel" index="112"]
+visible = false
+
+[node name="prop_gastank3_011" parent="PropsModel" index="113"]
+visible = false
+
+[node name="prop_gastank2_011" parent="PropsModel" index="114"]
+visible = false
+
+[node name="prop_gastank1_010" parent="PropsModel" index="115"]
+visible = false
+
+[node name="prop_barrel3_009" parent="PropsModel" index="116"]
+visible = false
+
+[node name="prop_barrel2_004" parent="PropsModel" index="117"]
+visible = false
+
+[node name="prop_cargobox5b_012" parent="PropsModel" index="118"]
+visible = false
+
+[node name="prop_cargobox5a_010" parent="PropsModel" index="119"]
+visible = false
+
+[node name="prop_steelbeam_027" parent="PropsModel" index="120"]
+visible = false
+
+[node name="prop_steelbeam_026" parent="PropsModel" index="121"]
+visible = false
+
+[node name="prop_steelbeam_025" parent="PropsModel" index="122"]
+visible = false
+
+[node name="prop_pellet_014" parent="PropsModel" index="123"]
+visible = false
+
+[node name="prop_pellet_013" parent="PropsModel" index="124"]
+visible = false
+
+[node name="prop_pellet_012" parent="PropsModel" index="125"]
+visible = false
+
+[node name="prop_smallbox2_005" parent="PropsModel" index="126"]
+visible = false
+
+[node name="prop_cargobox5b_011" parent="PropsModel" index="127"]
+visible = false
+
+[node name="prop_cargobox5a_009" parent="PropsModel" index="128"]
+visible = false
+
+[node name="prop_cargobox3_013" parent="PropsModel" index="129"]
+visible = false
+
+[node name="prop_cargobox1_a_007" parent="PropsModel" index="130"]
+visible = false
+
+[node name="prop_barrel3_008" parent="PropsModel" index="132"]
+visible = false
+
+[node name="prop_barrelcart_002" parent="PropsModel" index="133"]
+visible = false
+
+[node name="prop_cargobox3_012" parent="PropsModel" index="134"]
+visible = false
+
+[node name="prop_solderhose3_001" parent="PropsModel" index="142"]
+visible = false
+
+[node name="prop_solderhose2_001" parent="PropsModel" index="143"]
+visible = false
+
+[node name="prop_gastank3_010" parent="PropsModel" index="144"]
+visible = false
+
+[node name="CollisionShape3D" parent="PropsModel/prop_gastank2_004" index="0"]
+visible = false
+
+[node name="prop_gastank2_010" parent="PropsModel" index="146"]
+visible = false
+
+[node name="prop_barrier_005" parent="PropsModel" index="147"]
+visible = false
+
+[node name="prop_barrier_004" parent="PropsModel" index="148"]
+visible = false
+
+[node name="prop_container4bare1_003" parent="PropsModel" index="149"]
+visible = false
+
+[node name="prop_container4top_002" parent="PropsModel" index="150"]
+visible = false
+
+[node name="prop_barrier_003" parent="PropsModel" index="151"]
+visible = false
+
+[node name="CollisionShape3D" parent="PropsModel/prop_barrier_003/prop_barrier_003" index="0"]
+visible = false
+
+[node name="prop_barrier_002" parent="PropsModel" index="152"]
+visible = false
+
+[node name="prop_transitbarrierdirection_016" parent="PropsModel" index="157"]
+visible = false
+
+[node name="prop_transitbarrierdirection_015" parent="PropsModel" index="158"]
+visible = false
+
+[node name="prop_transitbarrierdirection_014" parent="PropsModel" index="159"]
+visible = false
+
+[node name="prop_transitbarrierdirection_010" parent="PropsModel" index="160"]
+visible = false
+
+[node name="prop_transitbarrierdirection_009" parent="PropsModel" index="161"]
+visible = false
+
+[node name="prop_transitbarrierdirection_008" parent="PropsModel" index="165"]
+visible = false
+
+[node name="prop_transitbarrierdirection_007" parent="PropsModel" index="166"]
+visible = false
+
+[node name="prop_transitbarrierdirection_006" parent="PropsModel" index="167"]
+visible = false
+
+[node name="prop_transitbarrierdirection_005" parent="PropsModel" index="168"]
+visible = false
+
+[node name="prop_transitbarrierdirection_004" parent="PropsModel" index="169"]
+visible = false
+
+[node name="prop_transitbarrierdirection_003" parent="PropsModel" index="170"]
+visible = false
+
+[node name="prop_transitbarrierdirection_002" parent="PropsModel" index="171"]
+visible = false
+
+[node name="prop_transitbarrierdirection_001" parent="PropsModel" index="172"]
+visible = false
+
+[node name="prop_lightstick_003" parent="PropsModel" index="173"]
+visible = false
+
+[node name="prop_cargobox4_011" parent="PropsModel" index="174"]
+visible = false
+
+[node name="prop_container4bare2_004" parent="PropsModel" index="175"]
+visible = false
+
+[node name="prop_container3_007" parent="PropsModel" index="176"]
+visible = false
+
+[node name="prop_container4bare2_003" parent="PropsModel" index="177"]
+visible = false
+
+[node name="prop_container4bare1_002" parent="PropsModel" index="178"]
+visible = false
+
+[node name="prop_steelbeam_018" parent="PropsModel" index="179"]
+visible = false
+
+[node name="prop_steelbeam_017" parent="PropsModel" index="180"]
+visible = false
+
+[node name="prop_steelbeam_016" parent="PropsModel" index="181"]
+visible = false
+
+[node name="prop_container3_006" parent="PropsModel" index="182"]
+visible = false
+
+[node name="prop_pellet_011" parent="PropsModel" index="183"]
+visible = false
+
+[node name="prop_pellet_010" parent="PropsModel" index="184"]
+visible = false
+
+[node name="prop_pellet_009" parent="PropsModel" index="185"]
+visible = false
+
+[node name="prop_cargobox5b_009" parent="PropsModel" index="186"]
+visible = false
+
+[node name="prop_cargobox5a_007" parent="PropsModel" index="187"]
+visible = false
+
+[node name="prop_cargobox3_008" parent="PropsModel" index="188"]
+visible = false
+
+[node name="prop_cargobox1_a_004" parent="PropsModel" index="189"]
+visible = false
+
+[node name="prop_cargobox2_008" parent="PropsModel" index="190"]
+visible = false
+
+[node name="prop_cargobox3_007" parent="PropsModel" index="191"]
+visible = false
+
+[node name="prop_cargobox2_007" parent="PropsModel" index="192"]
+visible = false
+
+[node name="prop_cargobox3_006" parent="PropsModel" index="193"]
+visible = false
+
+[node name="prop_container3_005" parent="PropsModel" index="194"]
+visible = false
+
+[node name="prop_cargobox3_005" parent="PropsModel" index="195"]
+visible = false
+
+[node name="prop_barrelcart_001" parent="PropsModel" index="196"]
+visible = false
+
+[node name="prop_barrel3_007" parent="PropsModel" index="197"]
+visible = false
+
+[node name="prop_lightstick_002" parent="PropsModel" index="198"]
+visible = false
+
+[node name="prop_lightstick_001" parent="PropsModel" index="199"]
+visible = false
+
+[node name="prop_barrier_001" parent="PropsModel" index="200"]
+visible = false
+
+[node name="prop_floodlight_002" parent="PropsModel" index="201"]
+visible = false
+
+[node name="prop_floodlight_001" parent="PropsModel" index="202"]
+visible = false
+
+[node name="prop_cargobox2_006" parent="PropsModel" index="203"]
+visible = false
+
+[node name="prop_cargobox5a_006" parent="PropsModel" index="204"]
+visible = false
+
+[node name="prop_cargobox2_005" parent="PropsModel" index="205"]
+visible = false
+
+[node name="prop_cargobox1_a_005" parent="PropsModel" index="206"]
+visible = false
+
+[node name="prop_cargobox3_004" parent="PropsModel" index="207"]
+visible = false
+
+[node name="prop_barrel2_003" parent="PropsModel" index="208"]
+visible = false
+
+[node name="prop_barrel3_005" parent="PropsModel" index="209"]
+visible = false
+
+[node name="prop_gastank1_008" parent="PropsModel" index="210"]
+visible = false
+
+[node name="prop_gastank2_008" parent="PropsModel" index="211"]
+visible = false
+
+[node name="prop_gastank3_008" parent="PropsModel" index="212"]
+visible = false
+
+[node name="prop_smallbox4_006" parent="PropsModel" index="213"]
+visible = false
+
+[node name="prop_pellet_008" parent="PropsModel" index="214"]
+visible = false
+
+[node name="prop_pellet_007" parent="PropsModel" index="215"]
+visible = false
+
+[node name="prop_pellet_006" parent="PropsModel" index="216"]
+visible = false
+
+[node name="prop_container4topbottom_002" parent="PropsModel" index="217"]
+visible = false
+
+[node name="prop_cargobox5a_005" parent="PropsModel" index="218"]
+visible = false
+
+[node name="prop_cargobox5b_008" parent="PropsModel" index="219"]
+visible = false
+
+[node name="prop_smallbox2_004" parent="PropsModel" index="220"]
+visible = false
+
+[node name="prop_container3_002" parent="PropsModel" index="221"]
+visible = false
+
+[node name="prop_cargobox4_010" parent="PropsModel" index="222"]
+visible = false
+
+[node name="prop_cargobox4_009" parent="PropsModel" index="223"]
+visible = false
+
+[node name="prop_container2_004" parent="PropsModel" index="224"]
+visible = false
+
+[node name="prop_container2_003" parent="PropsModel" index="225"]
+visible = false
+
+[node name="prop_smallbox1_002" parent="PropsModel" index="226"]
+visible = false
+
+[node name="prop_cargobox4_008" parent="PropsModel" index="227"]
+visible = false
+
+[node name="prop_tripodlight_002" parent="PropsModel" index="228"]
+visible = false
+
+[node name="prop_steelbeam_015" parent="PropsModel" index="229"]
+visible = false
+
+[node name="prop_steelbeam_014" parent="PropsModel" index="230"]
+visible = false
+
+[node name="prop_steelbeam_013" parent="PropsModel" index="231"]
+visible = false
+
+[node name="prop_reactorcylinder_006" parent="PropsModel" index="233"]
+visible = false
+
+[node name="prop_reactorcylinder_005" parent="PropsModel" index="234"]
+visible = false
+
+[node name="prop_pellet_005" parent="PropsModel" index="236"]
+visible = false
+
+[node name="prop_pellet_004" parent="PropsModel" index="237"]
+visible = false
+
+[node name="prop_cargobox4_007" parent="PropsModel" index="238"]
+visible = false
+
+[node name="prop_cargobox2_004" parent="PropsModel" index="239"]
+visible = false
+
+[node name="prop_cargobox1_a_003" parent="PropsModel" index="240"]
+visible = false
+
+[node name="prop_cargobox5b_007" parent="PropsModel" index="241"]
+visible = false
+
+[node name="prop_smallbox4_005" parent="PropsModel" index="242"]
+visible = false
+
+[node name="prop_smallbox2_003" parent="PropsModel" index="243"]
+visible = false
+
+[node name="prop_cargobox5a_004" parent="PropsModel" index="244"]
+visible = false
+
+[node name="prop_cargobox5b_005" parent="PropsModel" index="245"]
+visible = false
+
+[node name="prop_barrel2_002" parent="PropsModel" index="246"]
+visible = false
+
+[node name="prop_barrel3_004" parent="PropsModel" index="247"]
+visible = false
+
+[node name="prop_gastank1_006" parent="PropsModel" index="248"]
+visible = false
+
+[node name="prop_gastank2_006" parent="PropsModel" index="249"]
+visible = false
+
+[node name="prop_gastank3_006" parent="PropsModel" index="250"]
+visible = false
+
+[node name="prop_gastriple_003" parent="PropsModel" index="251"]
+visible = false
+
+[node name="prop_smallbox4_003" parent="PropsModel" index="252"]
+visible = false
+
+[node name="prop_pellet_002" parent="PropsModel" index="253"]
+visible = false
+
+[node name="prop_container4bare1_001" parent="PropsModel" index="254"]
+visible = false
+
+[node name="prop_container4bare2_002" parent="PropsModel" index="255"]
+visible = false
+
+[node name="prop_pellet_001" parent="PropsModel" index="256"]
+visible = false
+
+[node name="prop_cargobox4_004" parent="PropsModel" index="257"]
+visible = false
+
+[node name="CollisionShape3D" parent="PropsModel/@StaticBody3D@18101" index="0"]
+visible = false
+
+[node name="prop_cargobox3lid_004" parent="PropsModel" index="259"]
+visible = false
+
+[node name="prop_cargobox3_002" parent="PropsModel" index="260"]
+visible = false
+
+[node name="prop_smallbox4_002" parent="PropsModel" index="261"]
+visible = false
+
+[node name="prop_smallbox2_002" parent="PropsModel" index="262"]
+visible = false
+
+[node name="prop_barrel3_003" parent="PropsModel" index="263"]
+visible = false
+
+[node name="prop_cargobox4_003" parent="PropsModel" index="264"]
+visible = false
+
+[node name="prop_tripodlight_001" parent="PropsModel" index="265"]
+visible = false
+
+[node name="prop_smallbox4_001" parent="PropsModel" index="266"]
+visible = false
+
+[node name="prop_smallbox2_001" parent="PropsModel" index="267"]
+visible = false
+
+[node name="prop_smallbox1_001" parent="PropsModel" index="268"]
+visible = false
+
+[node name="prop_gastriple_002" parent="PropsModel" index="269"]
+visible = false
+
+[node name="prop_gastank1_009" parent="PropsModel/prop_gastriple_002" index="0"]
+visible = false
+
+[node name="prop_gastank2_009" parent="PropsModel/prop_gastriple_002" index="1"]
+visible = false
+
+[node name="prop_gastank3_009" parent="PropsModel/prop_gastriple_002" index="2"]
+visible = false
+
+[node name="CollisionShape3D" parent="PropsModel/prop_gastriple_002/prop_gastriple_005" index="0"]
+visible = false
+
+[node name="prop_gastank3_003" parent="PropsModel" index="270"]
+visible = false
+
+[node name="prop_gastank2_003" parent="PropsModel" index="271"]
+visible = false
+
+[node name="prop_gastank1_003" parent="PropsModel" index="272"]
+visible = false
+
+[node name="prop_cargobox2_002" parent="PropsModel" index="273"]
+visible = false
+
+[node name="prop_gastriple_001" parent="PropsModel" index="274"]
+visible = false
+
+[node name="prop_cargobox1_b_001" parent="PropsModel" index="275"]
+visible = false
+
+[node name="prop_barrel3_002" parent="PropsModel" index="276"]
+visible = false
+
+[node name="prop_container4topbottom_001" parent="PropsModel" index="277"]
+visible = false
+
+[node name="prop_cargobox5b_004" parent="PropsModel" index="278"]
+visible = false
+
+[node name="prop_cargobox5a_003" parent="PropsModel" index="279"]
+visible = false
+
+[node name="prop_cargobox3_001" parent="PropsModel" index="280"]
+visible = false
+
+[node name="prop_cargobox2_001" parent="PropsModel" index="281"]
+visible = false
+
+[node name="prop_container2_002" parent="PropsModel" index="282"]
+visible = false
+
+[node name="prop_container2_001" parent="PropsModel" index="283"]
+visible = false
+
+[node name="prop_barrel3_001" parent="PropsModel" index="284"]
+visible = false
+
+[node name="prop_barrel2_001" parent="PropsModel" index="285"]
+visible = false
+
+[node name="prop_cargobox4_002" parent="PropsModel" index="286"]
+visible = false
+
+[node name="prop_cargobox4_001" parent="PropsModel" index="287"]
+visible = false
+
+[node name="prop_cargobox1_a_001" parent="PropsModel" index="288"]
+visible = false
+
+[node name="prop_cargolift_001" parent="PropsModel" index="289"]
+visible = false
+
+[node name="prop_cargobox5b_003" parent="PropsModel" index="290"]
+visible = false
+
+[node name="prop_cargobox5a_002" parent="PropsModel" index="291"]
+visible = false
+
+[node name="prop_cargobox5a_001" parent="PropsModel" index="292"]
+visible = false
+
+[node name="prop_cargobox5b_002" parent="PropsModel" index="293"]
+visible = false
+
+[node name="prop_container3_001" parent="PropsModel" index="294"]
+visible = false
+
+[node name="prop_container3door2_002" parent="PropsModel/prop_container3_001" index="3"]
+visible = false
+
+[node name="prop_container3door2_007" parent="PropsModel/prop_container3_001" index="4"]
+visible = false
+
+[node name="prop_transitbarrierdirection_020" parent="PropsModel" index="295"]
+visible = false
+
+[node name="prop_container3" parent="PropsModel" index="296"]
+visible = false
+
+[node name="prop_transitbarrierdirection" parent="PropsModel" index="297"]
+visible = false
+
+[node name="props_fireextinguisher_002" parent="PropsModel" index="308"]
+visible = false
+
+[node name="props_fireextinguisher_003" parent="PropsModel" index="309"]
+visible = false
+
+[node name="props_fireextinguisher_004" parent="PropsModel" index="310"]
+visible = false
+
+[node name="props_fireextinguisher_005" parent="PropsModel" index="311"]
+visible = false
+
+[node name="Reactor_greeblemachine_003" parent="PropsModel" index="312"]
+visible = false
+
+[node name="Reactor_greeblemachine_001" parent="PropsModel" index="313"]
+visible = false
+
+[node name="Reactor_greeblemachine_002" parent="PropsModel" index="314"]
+visible = false
+
+[node name="prop_cargobox1_a_012" parent="PropsModel" index="315"]
+visible = false
+
+[node name="prop_cargobox2_020" parent="PropsModel" index="316"]
+visible = false
+
+[node name="prop_cargobox3_027" parent="PropsModel" index="317"]
+visible = false
+
+[node name="prop_cargobox3_028" parent="PropsModel" index="318"]
+visible = false
+
+[node name="prop_cargobox3_029" parent="PropsModel" index="319"]
+visible = false
+
+[node name="prop_cargobox3_030" parent="PropsModel" index="320"]
+visible = false
+
+[node name="prop_cargobox5a_018" parent="PropsModel" index="321"]
+visible = false
+
+[node name="prop_cargobox5b_021" parent="PropsModel" index="322"]
+visible = false
+
+[node name="prop_floodlight_007" parent="PropsModel" index="323"]
+visible = false
+
+[node name="prop_floodlight_008" parent="PropsModel" index="324"]
+visible = false
+
 [node name="Props" type="StaticBody3D" parent="."]
+visible = false
 collision_layer = 4
 collision_mask = 4
 
@@ -323,3 +1239,5 @@ shape = SubResource("13")
 [node name="Props55" type="CollisionShape3D" parent="Props"]
 transform = Transform3D(0.777146, 0, -0.62932, 0, 1, 0, 0.62932, 0, 0.777146, 64.1, -5.6, 51.3)
 shape = SubResource("33")
+
+[editable path="PropsModel"]

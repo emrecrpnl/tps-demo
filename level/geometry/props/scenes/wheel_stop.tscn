@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cy4tvovkqyocb"]
+
+[ext_resource type="ArrayMesh" uid="uid://dg7x4la4v1lpn" path="res://level/geometry/props/meshes/prop_prop_wheelstop.res" id="1_gqhxd"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_187n1"]
+points = PackedVector3Array(-0.354547, 0, -0.259174, -0.354547, 0, 0.259175, -0.354547, 0.0483865, -0.259174, 0.354479, 0, -0.259174, -0.354547, 0.290092, 0.259175, 0.354479, 0, 0.259175, -0.354547, 0.290092, 0.216047, 0.354479, 0.0483865, -0.259174, 0.354548, 0.106002, -0.069309, 0.354479, 0.290092, 0.259175, 0.354479, 0.290092, 0.216047)
+
+[node name="WheelStop" type="StaticBody3D"]
+
+[node name="PropPropWheelstop" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_gqhxd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_187n1")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwkwai7seawgn"]
+
+[ext_resource type="ArrayMesh" uid="uid://bu7l276oky26c" path="res://level/geometry/props/meshes/prop_prop_container4bare2.res" id="1_xoj6a"]
+
+[node name="Container4Bare2" type="StaticBody3D"]
+
+[node name="PropPropContainer4Bare2" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_xoj6a")

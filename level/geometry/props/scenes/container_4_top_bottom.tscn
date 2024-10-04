@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://1s1w0bp4einf"]
+
+[ext_resource type="ArrayMesh" uid="uid://binmoj5f4fs3d" path="res://level/geometry/props/meshes/prop_prop_container4topbottom.res" id="1_am81p"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_txm1m"]
+size = Vector3(3.085, 3.11, 6.06)
+
+[node name="Container4TopBottom" type="StaticBody3D"]
+
+[node name="prop_prop_container4topbottom" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_am81p")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55518, 0)
+shape = SubResource("BoxShape3D_txm1m")

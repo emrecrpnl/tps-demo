@@ -1,0 +1,571 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://d4derk3g2ygca"
+path="res://.godot/imported/prop.glb-2b1b59d3e26e04a83cb2cfc57632e661.scn"
+
+[deps]
+
+source_file="res://level/geometry/props/prop.glb"
+dest_files=["res://.godot/imported/prop.glb-2b1b59d3e26e04a83cb2cfc57632e661.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"materials": {
+"container2": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/container2.tres"
+},
+"container3": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/container3.tres"
+},
+"container4": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/container4.tres"
+},
+"flat_emitter_orange": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/flat_emitter_orange.tres"
+},
+"flat_emitter_powerful_white": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/flat_emitter_powerful_white.tres"
+},
+"flat_emitter_white": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/flat_emitter_white.tres"
+},
+"mid_cargo_box": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/mid_cargo_box.tres"
+},
+"reactor_cylinder": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/reactor_cylinder.tres"
+},
+"reactor_emitter": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/reactor_emitter.tres"
+},
+"scifi_car_glass": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/scifi_car_glass.tres"
+},
+"tile_painted_gun_metal": {
+"use_external/enabled": true,
+"use_external/path": "res://level/geometry/models/tile_painted_gun_metal.tres"
+}
+},
+"meshes": {
+"prop_Cube_424": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_Cube_424.res"
+},
+"prop_Reactor_greeblemachine": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_Reactor_greeblemachine.res"
+},
+"prop_prop_barrel-large": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_barrel-large.res"
+},
+"prop_prop_barrel-small": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_barrel-small.res"
+},
+"prop_prop_barrelcart": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_barrelcart.res"
+},
+"prop_prop_barrier": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_barrier.res"
+},
+"prop_prop_cargobox1_a_large": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox1_a_large.res"
+},
+"prop_prop_cargobox1_a_small": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox1_a_small.res"
+},
+"prop_prop_cargobox1_alid_large": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox1_alid_large.res"
+},
+"prop_prop_cargobox1_alid_small": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox1_alid_small.res"
+},
+"prop_prop_cargobox1_b": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox1_b.res"
+},
+"prop_prop_cargobox1_blid": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox1_blid.res"
+},
+"prop_prop_cargobox2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox2.res"
+},
+"prop_prop_cargobox2_small": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox2_small.res"
+},
+"prop_prop_cargobox2door2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox2door2.res"
+},
+"prop_prop_cargobox2door2_small": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox2door2_small.res"
+},
+"prop_prop_cargobox3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox3.res"
+},
+"prop_prop_cargobox3_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox3_001.res"
+},
+"prop_prop_cargobox4": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox4.res"
+},
+"prop_prop_cargobox4_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox4_001.res"
+},
+"prop_prop_cargobox5a": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox5a.res"
+},
+"prop_prop_cargobox5b": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargobox5b.res"
+},
+"prop_prop_cargolift": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_cargolift.res"
+},
+"prop_prop_container2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container2.res"
+},
+"prop_prop_container2door1": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container2door1.res"
+},
+"prop_prop_container2door2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container2door2.res"
+},
+"prop_prop_container3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container3.res"
+},
+"prop_prop_container3door1": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container3door1.res"
+},
+"prop_prop_container3door2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container3door2.res"
+},
+"prop_prop_container4bare1": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container4bare1.res"
+},
+"prop_prop_container4bare2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container4bare2.res"
+},
+"prop_prop_container4topbottom": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_container4topbottom.res"
+},
+"prop_prop_floodlight": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_floodlight.res"
+},
+"prop_prop_gastank1": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_gastank1.res"
+},
+"prop_prop_gastank2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_gastank2.res"
+},
+"prop_prop_gastank3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_gastank3.res"
+},
+"prop_prop_gastriple": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_gastriple.res"
+},
+"prop_prop_largepipe": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_largepipe.res"
+},
+"prop_prop_lightstick": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_lightstick.res"
+},
+"prop_prop_pellet": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_pellet.res"
+},
+"prop_prop_reactorcylinder": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_reactorcylinder.res"
+},
+"prop_prop_searchlightsmall": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_searchlightsmall.res"
+},
+"prop_prop_smallbox1": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_smallbox1.res"
+},
+"prop_prop_smallbox2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_smallbox2.res"
+},
+"prop_prop_smallbox4": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_smallbox4.res"
+},
+"prop_prop_solderhose2": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_solderhose2.res"
+},
+"prop_prop_solderhose3": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_solderhose3.res"
+},
+"prop_prop_steelbeam": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_steelbeam.res"
+},
+"prop_prop_transitbarrierdirection": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_transitbarrierdirection.res"
+},
+"prop_prop_transitbarrierdirectionReverse": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_transitbarrierdirectionReverse.res"
+},
+"prop_prop_transitbarrierdirection_lights": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_transitbarrierdirection_lights.res"
+},
+"prop_prop_tripodlight": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_tripodlight.res"
+},
+"prop_prop_wheelstop": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_prop_wheelstop.res"
+},
+"prop_props_fireextinguisher": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://level/geometry/props/meshes/prop_props_fireextinguisher.res"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

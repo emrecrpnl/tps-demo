@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdjp76ldyj0uo"]
+
+[ext_resource type="ArrayMesh" uid="uid://ctnybwsus3kdl" path="res://level/geometry/props/meshes/prop_prop_tripodlight.res" id="1_vfs43"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_avowf"]
+points = PackedVector3Array(-0.0233681, 1.13853, -0.0368057, -0.233303, 0.027665, 0.494536, -0.288453, 0.027665, 0.494536, -0.233303, -0.00919282, -0.498293, 0.557236, -0.00919282, 0.0348568, 0.0240914, 1.13064, 0.0715923, -0.306893, 0.027665, -0.479828, 0.557236, 0.027665, -0.038614, 0.0424465, 1.14906, -0.0569817, -0.233303, -0.00919282, 0.494536, -0.040826, 1.13855, 0.0155856, -0.306893, 0.027665, 0.476071, 0.557236, 0.027665, 0.0348568, -0.233303, 0.027665, -0.498293, 0.0608862, 1.14906, 0.0348568, -0.0127034, 1.13064, 0.0715923, 0.557236, -0.00919282, -0.038614, -0.294936, 0.00708884, -0.466601, -0.288453, 0.027665, -0.498293, 0.0608862, 1.14906, -0.038614, -0.0401281, 1.1362, -0.0192694, -0.291247, 0.0121127, 0.458763, 0.0424465, 1.16749, 0.0348568, 0.0424465, 1.14906, 0.0532246, 0.0424465, 1.16749, -0.038614)
+
+[node name="Tripodlight" type="StaticBody3D"]
+
+[node name="PropPropTripodlight" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_vfs43")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_avowf")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.16775, 0)
+light_color = Color(0.893392, 0.367406, 1.92523e-07, 1)
+light_energy = 0.8
+shadow_enabled = true
