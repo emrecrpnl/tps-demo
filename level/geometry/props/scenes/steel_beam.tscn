@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxs41si86121g"]
+
+[ext_resource type="ArrayMesh" uid="uid://cl7e6sby7rcql" path="res://level/geometry/props/meshes/prop_prop_steelbeam.res" id="1_1wfox"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0aryr"]
+points = PackedVector3Array(0.300002, 0.458955, 2.67819, 0.300002, 0.0126987, 2.67819, 0.300002, 0.458955, -2.67819, 0.284967, 0.4717, 2.67819, 0.284967, -1.86941e-08, 2.67819, 0.284967, -1.86941e-08, -2.67819, 0.300002, 0.0127449, -2.67819, 0.284967, 0.4717, -2.67819, -0.285025, 0.471746, 2.67819, -0.285025, -1.86941e-08, 2.67819, -0.285025, -1.86941e-08, -2.67819, -0.285025, 0.471746, -2.67819, -0.300002, 0.458955, 2.67819, -0.300002, 0.0126987, 2.67819, -0.300002, 0.0126987, -2.67819, -0.300002, 0.458955, -2.67819)
+
+[node name="SteelBeam" type="StaticBody3D"]
+
+[node name="PropPropSteelbeam" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_1wfox")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_0aryr")

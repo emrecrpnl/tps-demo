@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4n1r8rwx2l3q"]
+
+[ext_resource type="PackedScene" uid="uid://bwkwai7seawgn" path="res://level/geometry/props/scenes/container_4_bare_2.tscn" id="1_ayjrv"]
+[ext_resource type="PackedScene" uid="uid://256ga4o6qe5" path="res://level/geometry/props/scenes/largepipe.tscn" id="2_lkvba"]
+
+[node name="Container4BareWithPipes" type="Node3D"]
+
+[node name="Container4Bare2" parent="." instance=ExtResource("1_ayjrv")]
+
+[node name="Largepipe" parent="." instance=ExtResource("2_lkvba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.479637, 0.583955, 0)
+
+[node name="Largepipe2" parent="." instance=ExtResource("2_lkvba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 0.584, 0)
+
+[node name="Largepipe3" parent="." instance=ExtResource("2_lkvba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.317, 0)

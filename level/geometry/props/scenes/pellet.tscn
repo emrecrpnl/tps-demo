@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cffl43tku2jdv"]
+
+[ext_resource type="ArrayMesh" uid="uid://byfacd5etbons" path="res://level/geometry/props/meshes/prop_prop_pellet.res" id="1_7rc2d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rxylo"]
+size = Vector3(2.145, 0.203, 2.98)
+
+[node name="Pellet" type="RigidBody3D"]
+
+[node name="PropPropPellet" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_7rc2d")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.101318, 0)
+shape = SubResource("BoxShape3D_rxylo")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://di5fcciqeqw7v"]
+
+[ext_resource type="ArrayMesh" uid="uid://bef7tvaypowfj" path="res://level/geometry/props/meshes/prop_prop_solderhose3.res" id="1_0mvlw"]
+
+[node name="SolderHose3" type="Node3D"]
+
+[node name="PropPropSolderhose3" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_0mvlw")

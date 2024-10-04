@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c677xrb2wpoed"]
+
+[ext_resource type="PackedScene" uid="uid://bfbh4xxn4yah6" path="res://level/geometry/props/scenes/gastank_2.tscn" id="1_btf6w"]
+[ext_resource type="PackedScene" uid="uid://cuejrs2fxfig5" path="res://level/geometry/props/scenes/solder_hose_2.tscn" id="2_ffcrg"]
+
+[node name="TankWithHoses" type="Node3D"]
+
+[node name="Gastank2" parent="." instance=ExtResource("1_btf6w")]
+
+[node name="SolderHose2" parent="." instance=ExtResource("2_ffcrg")]
