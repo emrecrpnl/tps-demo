@@ -8,7 +8,7 @@
 albedo_color = Color(0, 1, 0, 1)
 
 [sub_resource type="BoxShape3D" id="1"]
-size = Vector3(8.85286, 2.26084, 11.0664)
+size = Vector3(5.918, 2.261, 11.066)
 
 [node name="Door" type="Area3D"]
 collision_mask = 5
