@@ -1944,3 +1944,5 @@ shape = SubResource("31")
 
 [node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
 occluder = ExtResource("3_2aako")
+
+[editable path="StructureModel"]
