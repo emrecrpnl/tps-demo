@@ -6,7 +6,7 @@
 height = 4.35371
 radius = 0.439913
 
-[node name="Largepipe" type="StaticBody3D"]
+[node name="Largepipe" type="RigidBody3D"]
 
 [node name="PropPropLargepipe" type="MeshInstance3D" parent="."]
 mesh = ExtResource("1_oitbl")
