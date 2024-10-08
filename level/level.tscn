@@ -267,7 +267,7 @@ transform = Transform3D(0.937774, 0, 0.347246, 0, 1, 0, -0.347246, 0, 0.937774, 
 transform = Transform3D(0.983328, 0, 0.181841, -1.49012e-08, 1, -2.98023e-08, -0.181841, 0, 0.983328, -13.6012, -12.4, -19.9772)
 
 [node name="Floodlight2" parent="Props" instance=ExtResource("13_p5e52")]
-transform = Transform3D(-0.24314, 0, 0.969991, 0, 1, 0, -0.969991, 0, -0.24314, 74.5108, -6.38596, 30.2612)
+transform = Transform3D(0.756037, 0, 0.654529, 0, 1, 0, -0.654529, 0, 0.756037, 74.5108, -6.38596, 30.2612)
 
 [node name="SmallBox4" parent="Props" instance=ExtResource("34_q818y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.7024, -1.2, 74.4271)
