@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://b51qillnxp84r"]
+[gd_scene load_steps=55 format=3 uid="uid://b51qillnxp84r"]
 
 [ext_resource type="Script" path="res://level/level.gd" id="1"]
 [ext_resource type="VoxelGIData" uid="uid://bw86lhn5p1ovp" path="res://level/geometry/giprobe_data.res" id="5"]
@@ -41,6 +41,8 @@
 [ext_resource type="PackedScene" uid="uid://b4thh5qmx4w5e" path="res://level/geometry/props/scenes/lightstick.tscn" id="37_a04yi"]
 [ext_resource type="PackedScene" uid="uid://cmjhr1s2efd04" path="res://level/geometry/props/scenes/search_light_small.tscn" id="38_6mna5"]
 [ext_resource type="PackedScene" uid="uid://tfr52c4ea5pp" path="res://level/geometry/props/scenes/barrel_small.tscn" id="38_d2pmp"]
+[ext_resource type="PackedScene" uid="uid://bwkwai7seawgn" path="res://level/geometry/props/scenes/container_4_bare_2.tscn" id="39_ix8tk"]
+[ext_resource type="PackedScene" uid="uid://ckpgmgobx7j6k" path="res://level/geometry/props/scenes/SciFi Car/sci_fi_car.tscn" id="39_pn0ng"]
 [ext_resource type="PackedScene" uid="uid://b85ysfigalfo" path="res://level/geometry/props/scenes/cargobox_1b.tscn" id="39_vnddo"]
 [ext_resource type="PackedScene" uid="uid://befsc84qn03jj" path="res://level/geometry/props/scenes/cargobox_1a_large.tscn" id="40_3q8qq"]
 [ext_resource type="PackedScene" uid="uid://ceg6lcpa85o30" path="res://level/geometry/props/scenes/cargobox_3.tscn" id="41_wlgon"]
@@ -48,6 +50,7 @@
 [ext_resource type="PackedScene" uid="uid://bcw7g6orhdn22" path="res://level/geometry/props/scenes/box.tscn" id="45_l2vtd"]
 [ext_resource type="PackedScene" uid="uid://c2jkfg6r5ple2" path="res://level/geometry/props/scenes/greeble_machine.tscn" id="46_ydevc"]
 [ext_resource type="PackedScene" uid="uid://ci341rr51gf45" path="res://level/geometry/props/scenes/combined_scenes/container_4_bare_1_greeble_machine.tscn" id="47_uinj7"]
+[ext_resource type="PackedScene" uid="uid://bbehv0uclnwmf" path="res://level/geometry/props/scenes/reactorc_cylinder.tscn" id="50_n7xg5"]
 
 [sub_resource type="CapsuleShape3D" id="1"]
 radius = 39.0126
@@ -138,22 +141,22 @@ transform = Transform3D(-0.495352, 0, 0.868692, 0, 1, 0, -0.868692, 0, -0.495352
 transform = Transform3D(0.0309223, 0, 0.999522, 0, 1, 0, -0.999522, 0, 0.0309223, 76.2287, -6.39177, 27.4717)
 
 [node name="Container2" parent="Props" instance=ExtResource("21_2muik")]
-transform = Transform3D(1, 0, 0, 0, 0.229098, -0.973403, 0, 0.973403, 0.229098, 84.1289, -1.31283, 15.872)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.2947, -6.40018, 15.872)
 
 [node name="Container4" parent="Props" instance=ExtResource("21_2muik")]
-transform = Transform3D(-0.182699, 0, 0.983169, 0, 1, 0, -0.983169, 0, -0.182699, 20.3022, -1.2, 99.1842)
+transform = Transform3D(-0.182699, 0, 0.983169, 0, 1, 0, -0.983169, 0, -0.182699, 18.8116, -1.2, 99.4612)
 
-[node name="PropPropContainer2Door1" parent="Props/Container4" index="11"]
+[node name="PropPropContainer2Door1" parent="Props/Container4" index="1"]
 transform = Transform3D(0.880891, 0, -0.47332, 0, 1, 0, 0.47332, 0, 0.880891, -1.21357, 1.55, 2.953)
 
 [node name="BarrelLarge2" parent="Props" instance=ExtResource("21_bkl7v")]
-transform = Transform3D(0.983376, 0, 0.181583, 0, 1, 0, -0.181583, 0, 0.983376, 19.7867, -1.17352, 95.6588)
+transform = Transform3D(0.983376, 0, 0.181583, 0, 1, 0, -0.181583, 0, 0.983376, 19.274, -1.17352, 95.6588)
 
 [node name="BarrelLarge3" parent="Props" instance=ExtResource("21_bkl7v")]
-transform = Transform3D(0.983376, 0, 0.181583, 0, 1, 0, -0.181583, 0, 0.983376, 20.0121, -1.17352, 96.8797)
+transform = Transform3D(0.983376, 0, 0.181583, 0, 1, 0, -0.181583, 0, 0.983376, 19.4994, -1.17352, 96.8797)
 
 [node name="BarrelLarge4" parent="Props" instance=ExtResource("21_bkl7v")]
-transform = Transform3D(0.867331, 0, -0.497731, 0, 1, 0, 0.497731, 0, 0.867331, 19.9024, 0.58644, 96.2859)
+transform = Transform3D(0.867331, 0, -0.497731, 0, 1, 0, 0.497731, 0, 0.867331, 19.3897, 0.58644, 96.2859)
 
 [node name="Cargobox5b" parent="Props" instance=ExtResource("22_lbev7")]
 transform = Transform3D(0.985175, 0, 0.171551, 0, 1, 0, -0.171551, 0, 0.985175, 17.5127, -1.2, 96.6267)
@@ -192,22 +195,22 @@ transform = Transform3D(-0.409812, 0, 0.91217, 0, 1, 0, -0.91217, 0, -0.409812, 
 transform = Transform3D(0.546906, 0, -0.837194, 0, 1, 0, 0.837194, 0, 0.546906, 46.4848, -6.4, 79.7305)
 
 [node name="Largepipe" parent="Props" instance=ExtResource("31_sw74k")]
-transform = Transform3D(0.439453, 0, -0.898265, 0, 1, 0, 0.898265, 0, 0.439453, 41.5911, -5.96009, 83.403)
+transform = Transform3D(0.439453, 0, -0.898265, 0, 1, 0, 0.898265, 0, 0.439453, 41.6358, -5.96009, 83.3811)
 freeze = true
 
 [node name="Largepipe2" parent="Props" instance=ExtResource("31_sw74k")]
-transform = Transform3D(0.439453, 0, -0.898265, 0, 1, 0, 0.898265, 0, 0.439453, 41.1908, -5.96009, 82.5848)
+transform = Transform3D(0.439453, 0, -0.898265, 0, 1, 0, 0.898265, 0, 0.439453, 41.2117, -5.96009, 82.5746)
 freeze = true
 
 [node name="Largepipe3" parent="Props" instance=ExtResource("31_sw74k")]
-transform = Transform3D(0.439453, 0, -0.898265, 0, 1, 0, 0.898265, 0, 0.439453, 41.3955, -5.20408, 83.0033)
+transform = Transform3D(0.439453, 0, -0.898265, 0, 1, 0, 0.898265, 0, 0.439453, 41.3797, -5.20408, 83.0111)
 freeze = true
 
 [node name="WheelStop" parent="Props" instance=ExtResource("32_p06gp")]
 transform = Transform3D(-0.896061, 0, -0.443932, 0, 1, 0, 0.443932, 0, -0.896061, 39.819, -6.4, 83.0982)
 
 [node name="WheelStop2" parent="Props" instance=ExtResource("32_p06gp")]
-transform = Transform3D(-0.891426, 0, -0.453166, 0, 1, 0, 0.453166, 0, -0.891426, 42.2945, -6.4, 81.8398)
+transform = Transform3D(-0.891426, 0, -0.453166, 0, 1, 0, 0.453166, 0, -0.891426, 42.3139, -6.4, 81.878)
 
 [node name="Pellet" parent="Props" instance=ExtResource("26_dki5l")]
 transform = Transform3D(0.098803, -0.239596, -0.965832, 0.826867, 0.559772, -0.0542766, 0.55365, -0.793252, 0.253421, 21.2013, -5.54903, 92.0629)
@@ -251,9 +254,6 @@ transform = Transform3D(0.8412, 0, 0.540725, 0, 1, 0, -0.540725, 0, 0.8412, 80.9
 [node name="TransitBarrierDirectionReverse" parent="Props" instance=ExtResource("23_7l4io")]
 transform = Transform3D(0.627216, 0, 0.778846, 0, 1, 0, -0.778846, 0, 0.627216, 82.3727, -6.3, 16.9989)
 
-[node name="Tripodlight" parent="Props" instance=ExtResource("11_2tqoo")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8647, -1.19081, 74.0166)
-
 [node name="Fireextinguisher2" parent="Props" instance=ExtResource("12_w13kw")]
 transform = Transform3D(-0.940065, 0.112681, -0.321842, -0.0298479, 0.913012, 0.406839, 0.339688, 0.392061, -0.854926, 33.5966, -4.52604, 88.5458)
 
@@ -262,6 +262,12 @@ transform = Transform3D(-0.842913, 0, -0.53805, 0, 1, 0, 0.53805, 0, -0.842913, 
 
 [node name="Floodlight" parent="Props" instance=ExtResource("13_p5e52")]
 transform = Transform3D(0.937774, 0, 0.347246, 0, 1, 0, -0.347246, 0, 0.937774, 79.1483, -6.38596, 18.3333)
+
+[node name="Floodlight3" parent="Props" instance=ExtResource("13_p5e52")]
+transform = Transform3D(0.983328, 0, 0.181841, -1.49012e-08, 1, -2.98023e-08, -0.181841, 0, 0.983328, -13.6012, -12.4, -19.9772)
+
+[node name="Floodlight2" parent="Props" instance=ExtResource("13_p5e52")]
+transform = Transform3D(-0.24314, 0, 0.969991, 0, 1, 0, -0.969991, 0, -0.24314, 74.5108, -6.38596, 30.2612)
 
 [node name="SmallBox4" parent="Props" instance=ExtResource("34_q818y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.7024, -1.2, 74.4271)
@@ -282,7 +288,7 @@ transform = Transform3D(0.776223, 0, 0.630459, 0, 1, 0, -0.630459, 0, 0.776223, 
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.3001, -1.21404, 74.9759)
 
 [node name="SearchLightSmall" parent="Props" instance=ExtResource("38_6mna5")]
-transform = Transform3D(0.984069, 0, 0.177789, 0, 1, 0, -0.177789, 0, 0.984069, 61.7926, -0.758246, 74.4301)
+transform = Transform3D(0.984069, 0, 0.177789, 0, 1, 0, -0.177789, 0, 0.984069, 61.7926, -0.758246, 74.4986)
 
 [node name="Cargobox1B" parent="Props" instance=ExtResource("39_vnddo")]
 transform = Transform3D(0.633597, 0, -0.773663, 0, 1, 0, 0.773663, 0, 0.633597, 56.7374, -1.2, 78.3988)
@@ -300,7 +306,13 @@ transform = Transform3D(-0.0286719, 0, 0.999589, 0, 1, 0, -0.999589, 0, -0.02867
 transform = Transform3D(0.685107, 0, -0.728443, 0, 1, 0, 0.728443, 0, 0.685107, 56.2959, -1.2, 84.5004)
 
 [node name="Cargobox4" parent="Props" instance=ExtResource("42_fgusw")]
-transform = Transform3D(-0.498957, 0, 0.866627, 0, 1, 0, -0.866627, 0, -0.498957, 53.4511, -1.2, 86.2642)
+transform = Transform3D(-0.466032, 0, 0.884768, 0, 1, 0, -0.884768, 0, -0.466032, 53.4511, -1.2, 86.2642)
+
+[node name="Cargobox6" parent="Props" instance=ExtResource("42_fgusw")]
+transform = Transform3D(-0.505055, 0, 0.863087, 0, 1, 0, -0.863087, 0, -0.505055, 52.5552, -0.483333, 86.7885)
+
+[node name="Cargobox5" parent="Props" instance=ExtResource("42_fgusw")]
+transform = Transform3D(-0.465028, 0, 0.885296, 0, 1, 0, -0.885296, 0, -0.465028, 51.671, -1.2, 87.2891)
 
 [node name="GreebleMachine" parent="Props" instance=ExtResource("46_ydevc")]
 transform = Transform3D(-2.98023e-08, 0.579381, 0.815057, 1, 3.08325e-09, -3.47965e-08, -2.98023e-08, 0.815057, -0.579381, 52.2265, -0.0133601, 81.9353)
@@ -311,9 +323,6 @@ transform = Transform3D(-0.404296, 0, 0.914628, 0, 1, 0, -0.914628, 0, -0.404296
 [node name="Box" parent="Props" instance=ExtResource("45_l2vtd")]
 transform = Transform3D(0.872573, 0, 0.488484, 0, 1, 0, -0.488484, 0, 0.872573, 60.4449, -0.199999, 75.0935)
 
-[node name="Pellet5" parent="Props" instance=ExtResource("26_dki5l")]
-transform = Transform3D(1, 0, 0, 0, 0.161569, 0.986861, 0, -0.986861, 0.161569, 60.6655, 0.499178, 79.1203)
-
 [node name="BarrelSmall" parent="Props" instance=ExtResource("38_d2pmp")]
 transform = Transform3D(0.792907, 0, -0.609343, 0, 1, 0, 0.609343, 0, 0.792907, 31.3864, -6.4, 87.485)
 
@@ -322,6 +331,18 @@ transform = Transform3D(0.657402, 0, 0.75354, 0, 1, 0, -0.75354, 0, 0.657402, 32
 
 [node name="BarrelSmall3" parent="Props" instance=ExtResource("38_d2pmp")]
 transform = Transform3D(-0.807053, 0, 0.590479, 0, 1, 0, -0.590479, 0, -0.807053, 31.7548, -5.21751, 87.3775)
+
+[node name="Container4Bare3" parent="Props" instance=ExtResource("39_ix8tk")]
+transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 89.3065, -6.23957, 15.3233)
+
+[node name="Container4TopBottom2" parent="Props" instance=ExtResource("33_wqjs4")]
+transform = Transform3D(0.067371, 0, -0.997728, 0, 1, 0, 0.997728, 0, 0.067371, 90.7219, -6.4, 2.51911)
+
+[node name="Container8" parent="Props" instance=ExtResource("17_85f2m")]
+transform = Transform3D(-0.246864, 0, 0.96905, 0, 1, 0, -0.96905, 0, -0.246864, 86.1982, -6.4, 10.0121)
+
+[node name="Container9" parent="Props" instance=ExtResource("21_2muik")]
+transform = Transform3D(-0.922012, 0, 0.387162, 0, 1, 0, -0.387162, 0, -0.922012, 90.5477, -1.2, 45.8424)
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://player/player.tscn", "res://enemies/red_robot/red_robot.tscn", "res://player/bullet/bullet.tscn")
@@ -332,6 +353,7 @@ spawn_path = NodePath("../SpawnedNodes")
 [node name="Structure" parent="." instance=ExtResource("15")]
 
 [node name="Lights" parent="." instance=ExtResource("13")]
+metadata/_edit_lock_ = true
 
 [node name="LightShaft_034" parent="Lights/Lucescontrol" index="34"]
 visible = false
@@ -339,10 +361,71 @@ visible = false
 [node name="LightShaft_035" parent="Lights/Lucescontrol" index="35"]
 visible = false
 
+[node name="LightShaft_036" parent="Lights/Lucescontrol" index="36"]
+visible = false
+
+[node name="LightShaft_037" parent="Lights/Lucescontrol" index="37"]
+visible = false
+
+[node name="LightShaft_038" parent="Lights/Lucescontrol" index="38"]
+transform = Transform3D(-0.00890048, -0.394081, 0.15529, 3.54157e-09, 0.0770238, 0.799001, -0.11852, 0.0295942, -0.0116618, 20.3507, 1.98303, 95.268)
+visible = false
+
+[node name="LightShaft_039" parent="Lights/Lucescontrol" index="39"]
+visible = false
+
+[node name="LightShaft_040" parent="Lights/Lucescontrol" index="40"]
+visible = false
+
+[node name="LightShaft_041" parent="Lights/Lucescontrol" index="41"]
+visible = false
+
+[node name="LightShaft_042" parent="Lights/Lucescontrol" index="42"]
+visible = false
+
+[node name="LightShaft_043" parent="Lights/Lucescontrol" index="43"]
+visible = false
+
 [node name="LightShaft_044" parent="Lights/Lucescontrol" index="44"]
 visible = false
 
 [node name="LightShaft_045" parent="Lights/Lucescontrol" index="45"]
+visible = false
+
+[node name="LightShaft_048" parent="Lights/Lucescontrol" index="48"]
+visible = false
+
+[node name="LightShaft_049" parent="Lights/Lucescontrol" index="49"]
+visible = false
+
+[node name="Spot_006" parent="Lights" index="6"]
+visible = false
+
+[node name="Spot_005" parent="Lights" index="7"]
+visible = false
+
+[node name="Spot_005_Orientation" parent="Lights/Spot_005" index="0"]
+visible = false
+
+[node name="Spot_003" parent="Lights" index="9"]
+visible = false
+
+[node name="Spot_003_Orientation" parent="Lights/Spot_003" index="0"]
+visible = false
+
+[node name="Spot_002_Orientation" parent="Lights/Spot_002" index="0"]
+visible = false
+
+[node name="Spot_001_Orientation" parent="Lights/Spot_001" index="0"]
+visible = false
+
+[node name="Spot_000" parent="Lights" index="12"]
+visible = false
+
+[node name="Spot_013" parent="Lights" index="13"]
+visible = false
+
+[node name="Spot_012" parent="Lights" index="14"]
 visible = false
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
@@ -528,6 +611,48 @@ resolution = 4
 texture = ExtResource("11_mt3nw")
 
 [node name="train" parent="." instance=ExtResource("34_vle8v")]
+
+[node name="Floodlight" parent="." instance=ExtResource("13_p5e52")]
+transform = Transform3D(0.269575, 0, 0.962979, 0, 1, 0, -0.962979, 0, 0.269575, 21.0219, -1.2, 94.6156)
+
+[node name="Floodlight2" parent="." instance=ExtResource("13_p5e52")]
+transform = Transform3D(-0.86681, 0, 0.498639, 0, 1, 0, -0.498639, 0, -0.86681, 23.0145, -1.2, 99.2672)
+
+[node name="ReactorcCylinder" parent="." instance=ExtResource("50_n7xg5")]
+transform = Transform3D(0.976364, 0.216133, 0, 9.44747e-09, -4.26782e-08, 1, 0.216133, -0.976364, -4.37114e-08, 2.68512, 1.12102, 100.389)
+
+[node name="ReactorcCylinder2" parent="." instance=ExtResource("50_n7xg5")]
+transform = Transform3D(0.981494, -0.191494, 0, -8.37048e-09, -4.29025e-08, 1, -0.191494, -0.981494, -4.37114e-08, 4.92188, 1.12102, 100.389)
+
+[node name="Container3" parent="." instance=ExtResource("17_85f2m")]
+transform = Transform3D(0.050959, 0, -0.998701, 0, 1, 0, 0.998701, 0, 0.050959, 10.7785, -1.2, 100.544)
+
+[node name="Barrier" parent="." instance=ExtResource("15_0yd4o")]
+transform = Transform3D(0.978329, 0, -0.207058, 0, 1, 0, 0.207058, 0, 0.978329, 88.1273, -6.4, 19.5248)
+
+[node name="Barrier2" parent="." instance=ExtResource("15_0yd4o")]
+transform = Transform3D(-0.0318818, 0, 0.999492, 0, 1, 0, -0.999492, 0, -0.0318818, 30.3255, -6.4, 85.3888)
+
+[node name="Barrier3" parent="." instance=ExtResource("15_0yd4o")]
+transform = Transform3D(0.603959, 0, 0.797015, 0, 1, 0, -0.797015, 0, 0.603959, 31.8374, -6.4, 81.3875)
+
+[node name="Barrier4" parent="." instance=ExtResource("15_0yd4o")]
+transform = Transform3D(0.917928, 0, 0.396747, 0, 1, 0, -0.396747, 0, 0.917928, 35.9023, -6.4, 78.7177)
+
+[node name="Tripodlight" parent="." instance=ExtResource("11_2tqoo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.7949, -6.4, 85.5812)
+
+[node name="scifi_car" parent="." instance=ExtResource("39_pn0ng")]
+transform = Transform3D(0.521873, 0, -0.853023, 0, 1, 0, 0.853023, 0, 0.521873, 43.2923, -6.26781, 76.3496)
+
+[node name="scifi_car2" parent="." instance=ExtResource("39_pn0ng")]
+transform = Transform3D(-0.131391, 0, 0.991331, 0, 1, 0, -0.991331, 0, -0.131391, 7.09309, -6.4, 90.8539)
+
+[node name="Floodlight3" parent="." instance=ExtResource("13_p5e52")]
+transform = Transform3D(0.714851, 0, 0.699277, 0, 1, 0, -0.699277, 0, 0.714851, 26.0971, -6.4, 77.6987)
+
+[node name="Floodlight4" parent="." instance=ExtResource("13_p5e52")]
+transform = Transform3D(0.785555, 0, 0.618792, 0, 1, 0, -0.618792, 0, 0.785555, 7.25791, -6.4, 80.9946)
 
 [editable path="Props/Container4"]
 [editable path="Lights"]

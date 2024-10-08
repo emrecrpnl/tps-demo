@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckpgmgobx7j6k"]
+
+[ext_resource type="PackedScene" uid="uid://bpjw3aqm7oftr" path="res://level/geometry/props/meshes/car/scifi_car.glb" id="1_tf3vx"]
+[ext_resource type="PackedScene" uid="uid://o0i5x7gtlnmn" path="res://level/geometry/props/meshes/car/scifi_car_wheel.glb" id="2_qcbrv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wc6o2"]
+size = Vector3(3.5, 2.05237, 5.39985)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yeujv"]
+size = Vector3(3.405, 2.095, 2.83554)
+
+[node name="scifi_car" instance=ExtResource("1_tf3vx")]
+
+[node name="back_left_1" parent="scificar_body" index="0"]
+wheel_radius = 0.915
+suspension_stiffness = 30.0
+damping_compression = 0.9
+damping_relaxation = 0.9
+
+[node name="scifi_car_wheel" parent="scificar_body/back_left_1" index="1" instance=ExtResource("2_qcbrv")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="back_left_2" parent="scificar_body" index="1"]
+wheel_radius = 0.915
+suspension_stiffness = 30.0
+damping_compression = 0.9
+damping_relaxation = 0.9
+
+[node name="scifi_car_wheel" parent="scificar_body/back_left_2" index="1" instance=ExtResource("2_qcbrv")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="back_right_1" parent="scificar_body" index="2"]
+wheel_radius = 0.915
+suspension_stiffness = 30.0
+damping_compression = 0.9
+damping_relaxation = 0.9
+
+[node name="scifi_car_wheel" parent="scificar_body/back_right_1" index="1" instance=ExtResource("2_qcbrv")]
+
+[node name="back_right_2" parent="scificar_body" index="3"]
+wheel_radius = 0.915
+suspension_stiffness = 30.0
+damping_compression = 0.9
+damping_relaxation = 0.9
+
+[node name="scifi_car_wheel" parent="scificar_body/back_right_2" index="1" instance=ExtResource("2_qcbrv")]
+
+[node name="fron_left" parent="scificar_body" index="4"]
+wheel_radius = 0.915
+suspension_stiffness = 30.0
+damping_compression = 0.9
+damping_relaxation = 0.9
+
+[node name="scifi_car_wheel" parent="scificar_body/fron_left" index="1" instance=ExtResource("2_qcbrv")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="fron_right" parent="scificar_body" index="5"]
+wheel_radius = 0.915
+suspension_stiffness = 30.0
+damping_compression = 0.9
+damping_relaxation = 0.9
+
+[node name="scifi_car_wheel" parent="scificar_body/fron_right" index="1" instance=ExtResource("2_qcbrv")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="scificar_body" index="11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.95858, -0.693946)
+shape = SubResource("BoxShape3D_wc6o2")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="scificar_body" index="12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.95858, 2.40111)
+shape = SubResource("BoxShape3D_yeujv")
