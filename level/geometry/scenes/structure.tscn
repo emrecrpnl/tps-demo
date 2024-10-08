@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://bh1lh032pmey2"]
+[gd_scene load_steps=37 format=3 uid="uid://bh1lh032pmey2"]
 
 [ext_resource type="PackedScene" uid="uid://babdc0gjbduw" path="res://level/geometry/scenes/collision/stair_pillar.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://8fujwb58dav7" path="res://level/geometry/models/structure.glb" id="2"]
@@ -45,6 +45,12 @@ size = Vector3(10, 10, 10)
 
 [sub_resource type="BoxShape3D" id="14"]
 size = Vector3(1, 0.2, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_61yfg"]
+size = Vector3(25.2728, 1.22571, 10.7105)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h3fnu"]
+size = Vector3(1.63623, 5.575, 9.375)
 
 [sub_resource type="BoxShape3D" id="15"]
 size = Vector3(200, 12, 200)
@@ -1104,11 +1110,23 @@ transform = Transform3D(0.819152, 0, -0.573577, 0, 1, 0, 0.573577, 0, 0.819152, 
 shape = SubResource("12")
 
 [node name="StartHall13" type="CollisionShape3D" parent="UpperFloor"]
-transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 94.9597, -16.2, 54.825)
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 92.07, -16.2, 59.83)
 shape = SubResource("12")
 
+[node name="StartHall47" type="CollisionShape3D" parent="UpperFloor"]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 95.5795, -1.81788, 51.185)
+shape = SubResource("BoxShape3D_61yfg")
+
+[node name="StartHall78" type="CollisionShape3D" parent="UpperFloor"]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 93.3247, -6.89621, 49.8831)
+shape = SubResource("BoxShape3D_61yfg")
+
+[node name="StartHall77" type="CollisionShape3D" parent="UpperFloor"]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 93.4062, -3.87761, 49.9302)
+shape = SubResource("BoxShape3D_h3fnu")
+
 [node name="StartHall14" type="CollisionShape3D" parent="UpperFloor"]
-transform = Transform3D(0.906308, 0, -0.422618, 0, 1, 0, 0.422618, 0, 0.906308, 99.3766, -16.2, 46.3401)
+transform = Transform3D(0.906308, 0, -0.422618, 0, 1, 0, 0.422618, 0, 0.906308, 100.968, -16.2, 42.9278)
 shape = SubResource("12")
 
 [node name="StartHall15" type="CollisionShape3D" parent="UpperFloor"]
@@ -1252,11 +1270,11 @@ transform = Transform3D(0.819152, 0, -0.573577, 0, 1, 0, 0.573577, 0, 0.819152, 
 shape = SubResource("12")
 
 [node name="StartHall51" type="CollisionShape3D" parent="UpperFloor"]
-transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 93.6607, -18.2, 54.075)
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 90.951, -18.2, 58.7683)
 shape = SubResource("12")
 
 [node name="StartHall52" type="CollisionShape3D" parent="UpperFloor"]
-transform = Transform3D(0.906308, 0, -0.422618, 0, 1, 0, 0.422618, 0, 0.906308, 98.0171, -18.2, 45.7062)
+transform = Transform3D(0.906308, 0, -0.422618, 0, 1, 0, 0.422618, 0, 0.906308, 99.6212, -18.2, 42.2661)
 shape = SubResource("12")
 
 [node name="StartHall53" type="CollisionShape3D" parent="UpperFloor"]

@@ -9,9 +9,12 @@
 
 [node name="Largepipe" parent="." instance=ExtResource("2_lkvba")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.479637, 0.583955, 0)
+freeze = true
 
 [node name="Largepipe2" parent="." instance=ExtResource("2_lkvba")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48, 0.584, 0)
+freeze = true
 
 [node name="Largepipe3" parent="." instance=ExtResource("2_lkvba")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.317, 0)
+freeze = true

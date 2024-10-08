@@ -1,8 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://bwkwai7seawgn"]
+[gd_scene load_steps=3 format=3 uid="uid://bwkwai7seawgn"]
 
 [ext_resource type="ArrayMesh" uid="uid://bu7l276oky26c" path="res://level/geometry/props/meshes/prop_prop_container4bare2.res" id="1_xoj6a"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_1n1d1"]
+points = PackedVector3Array(-1.16465, 0.0482524, -2.48258, -1.24798, 0.136437, -2.47767, -1.18221, 0.115115, 2.694, -0.146713, 2.79791, -1.74382, 1.26586, 0.10034, -2.54987, 1.23009, 0.594886, 2.84578, -0.146713, 2.79791, 1.74382, 1.17585, 0.0147353, 2.54579, -1.24831, 0.594886, -2.84578, -1.24831, 0.594886, 2.84578, 1.23009, 0.594886, -2.84578, 0.12823, 2.79791, -1.74382, 0.12823, 2.79791, 1.74382, 1.32208, 0.503233, 2.66231, -1.3403, 0.503233, 2.57029, 1.01183, -0.000920493, -2.57459, -1.16465, 0.0482524, 2.48258, 1.32208, 0.503233, -2.66231, -0.69738, 0.594886, -2.9378, 0.679158, 0.594886, 2.9378, -1.3403, 0.503233, -2.57029, -1.11385, 0.182188, -2.82843, 0.679158, 0.594886, -2.9378, 1.10463, 0.172472, 2.85147, -0.69738, 0.594886, 2.9378, 1.10465, 0.172453, -2.85151, 1.01183, -0.000920493, 2.57459, 1.26586, 0.10034, 2.54987, -1.3403, 0.411301, 2.66231, -1.24798, 0.136437, 2.47767, 1.17585, 0.0147353, -2.54579, -1.0967, 0.200716, 2.7845)
 
 [node name="Container4Bare2" type="StaticBody3D"]
 
 [node name="PropPropContainer4Bare2" type="MeshInstance3D" parent="."]
 mesh = ExtResource("1_xoj6a")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_1n1d1")

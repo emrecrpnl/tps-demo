@@ -12,3 +12,8 @@ mesh = ExtResource("1_4f4gj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("ConvexPolygonShape3D_8ab16")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.01391e-08, 0.052144, 0.178788)
+shadow_enabled = true
+spot_angle = 18.948
