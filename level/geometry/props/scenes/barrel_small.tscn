@@ -6,7 +6,7 @@
 height = 1.18249
 radius = 0.35213
 
-[node name="BarrelSmall" type="StaticBody3D"]
+[node name="BarrelSmall" type="RigidBody3D"]
 
 [node name="PropPropBarrel-small" type="MeshInstance3D" parent="."]
 mesh = ExtResource("1_pc2wt")
